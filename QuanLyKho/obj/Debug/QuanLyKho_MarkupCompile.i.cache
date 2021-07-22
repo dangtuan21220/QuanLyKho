@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Tuandv03\source\repos\QuanLyKho\QuanLyKho\obj\Debug\
+D:\web\WPF\QuanLyKho\QuanLyKho\obj\Debug\
 QuanLyKho
 none
 false
 DEBUG;TRACE
-C:\Users\Tuandv03\source\repos\QuanLyKho\QuanLyKho\App.xaml
-22079336165
+D:\web\WPF\QuanLyKho\QuanLyKho\App.xaml
+41541710583
 
-8-1284508827
-15806496989
-MainWindow.xaml;ResourceXAML\MainResource.xaml;
+11-484457681
+17-1389162940
+LoginWindow.xaml;MainWindow.xaml;ResourceXAML\MainResource.xaml;UserControlBar\ControlBarUC.xaml;
 
-False
+True
 
