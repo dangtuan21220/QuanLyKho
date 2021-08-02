@@ -27,43 +27,16 @@ namespace QuanLyKho.ViewModel
                 Isloaded = true;
                 LoginWindow loginWindow = new LoginWindow();
                 loginWindow.ShowDialog();
-            });
+            }
+              );
 
-            UnitCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                UnitWindow wn = new UnitWindow();
-                wn.ShowDialog();
-            });
-
-            SuplierCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                SuplierWindow wn = new SuplierWindow();
-                wn.ShowDialog();
-            });
-
-            CustomerCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                CustomerWindow wn = new CustomerWindow();
-                wn.ShowDialog();
-            });
-
-            ObjectCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                ObjectWindow wn = new ObjectWindow();
-                wn.ShowDialog();
-            });
-
-            UserCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                UserWindow wn = new UserWindow();
-                wn.ShowDialog();
-            });
-
-            InputCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                InputWindow wn = new InputWindow();
-                wn.ShowDialog();
-            });
-
-            OutputCommand = new RelayCommand<object>((p) => { return true; }, (p) => {
-                OutputWindow wn = new OutputWindow();
-                wn.ShowDialog();
-            });
-
+            UnitCommand = new RelayCommand<object>((p) => { return true; }, (p) => { UnitWindow wd = new UnitWindow(); wd.ShowDialog(); });
+            SuplierCommand = new RelayCommand<object>((p) => { return true; }, (p) => { SuplierWindow wd = new SuplierWindow(); wd.ShowDialog(); });
+            CustomerCommand = new RelayCommand<object>((p) => { return true; }, (p) => { CustomerWindow wd = new CustomerWindow(); wd.ShowDialog(); });
+            ObjectCommand = new RelayCommand<object>((p) => { return true; }, (p) => { ObjectWindow wd = new ObjectWindow(); wd.ShowDialog(); });
+            UserCommand = new RelayCommand<object>((p) => { return true; }, (p) => { UserWindow wd = new UserWindow(); wd.ShowDialog(); });
+            InputCommand = new RelayCommand<object>((p) => { return true; }, (p) => { InputWindow wd = new InputWindow(); wd.ShowDialog(); });
+            OutputCommand = new RelayCommand<object>((p) => { return true; }, (p) => { OutputWindow wd = new OutputWindow(); wd.ShowDialog(); });
         }
     }
 }
